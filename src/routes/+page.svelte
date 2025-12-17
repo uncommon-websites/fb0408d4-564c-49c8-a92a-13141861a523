@@ -4,358 +4,342 @@
 	let scrollY = 0;
 </script>
 
+<svelte:head>
+	<title>Alrdy - Transform Your B2B SaaS Website in 5 Days</title>
+	<meta name="description" content="Strategic design frameworks and rapid implementation for pre-Series B SaaS startups. Professional websites delivered in 5 days. No agency bloat, no endless timelines." />
+	<meta property="og:title" content="Alrdy - Transform Your B2B SaaS Website in 5 Days" />
+	<meta property="og:description" content="Strategic design frameworks and rapid implementation for pre-Series B SaaS startups. Professional websites delivered in 5 days." />
+	<meta property="og:type" content="website" />
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:title" content="Alrdy - Transform Your B2B SaaS Website in 5 Days" />
+	<meta name="twitter:description" content="Strategic design frameworks and rapid implementation for pre-Series B SaaS startups." />
+</svelte:head>
+
 <svelte:window bind:scrollY />
 
-<div class="font-sans text-gray-900 antialiased selection:bg-orange-200 selection:text-orange-900">
-	<!-- Navigation / Header (Implicit in design, maybe just the logo or minimal) -->
-	<!-- The screenshot doesn't explicitly show a header bar, but usually there is one. 
-         I will assume a minimal or transparent one, or just the content. 
-         The "W." ribbon is fixed on the right. -->
-    
-    <div class="fixed top-0 right-0 z-50 h-full pointer-events-none">
-        <div class="absolute top-[15vh] right-0 bg-black text-white w-8 md:w-10 py-4 flex flex-col items-center justify-center font-bold text-xs pointer-events-auto cursor-pointer hover:bg-gray-900 transition-colors">
-            <span class="writing-vertical-rl rotate-180 transform">Site of the Day</span>
-            <span class="mt-2 font-serif text-lg">W.</span>
-        </div>
-    </div>
+<div class="font-sans text-gray-900 antialiased selection:bg-primary-200 selection:text-primary-900">
 
 	<!-- Hero Section -->
-	<section class="relative min-h-screen w-full bg-gradient-to-b from-[#1a2c4e] via-[#4a6b9c] to-[#fdfbf7] text-white px-6 md:px-12 lg:px-24 pt-32 pb-24 flex flex-col justify-between">
+	<section class="relative min-h-screen w-full bg-gradient-to-b from-gray-950 via-gray-900 to-white text-white px-6 md:px-12 lg:px-24 pt-32 pb-24 flex flex-col justify-between">
 		<div class="max-w-5xl">
+			<div class="mb-8">
+				<svg class="w-16 h-16 md:w-20 md:h-20 text-primary-400" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+					<path
+						fill-rule="evenodd"
+						clip-rule="evenodd"
+						d="M5.0473 17.8386L5.69453 18.9586V18.9601H18.3003L18.9314 17.84H6.34063L6.82626 16.9993H19.4308L20.078 15.8807H7.47237L7.95715 15.0414H16.0358L16.0366 15.0429L16.0375 15.0414H20.5603L20.5612 15.0429L21.2084 13.9228L21.208 13.922L21.2084 13.9213H21.2075L14.9084 3.00677L14.9106 3.00296L14.9062 3.00296L13.6177 3.00296L5.0473 17.8386ZM14.261 4.12767L13.7751 4.96887L18.9438 13.9213H19.9139L14.261 4.12767ZM13.1286 6.08808L12.6467 6.9225L16.6749 13.9006L16.6634 13.9213H17.6511L13.1286 6.08808ZM11.9999 8.04225L8.60411 13.9213H15.3899L11.9999 8.04225ZM6.99833 3.30006C7.33866 3.10343 7.7248 2.99993 8.11786 3L2.30033 13.0776C2.10357 12.7371 2 12.3508 2 11.9575C2 11.5643 2.10357 11.178 2.30033 10.8375L6.17916 4.12006C6.37543 3.77951 6.65798 3.49669 6.99833 3.30006ZM9.08869 3H10.3816L3.43223 15.0384L2.785 13.9184L9.08869 3ZM11.3509 3H12.6424L4.56262 16.9963L3.91691 15.8777L11.3509 3ZM21.7064 13.0598C21.8988 12.7254 22 12.3463 22 11.9605C22 11.5746 21.8988 11.1956 21.7064 10.8611L17.8039 4.10233C17.6108 3.7681 17.3331 3.49057 16.9987 3.2976C16.6644 3.10463 16.2852 3.00302 15.8992 3.00296H15.8741L21.6931 13.082L21.7064 13.0598ZM17.7995 19.7994H6.17916C6.37472 20.1412 6.65692 20.4253 6.99728 20.6232C7.33763 20.8212 7.72414 20.9258 8.11786 20.9269H15.8829C16.2737 20.9261 16.6572 20.8212 16.994 20.6231C17.3309 20.4249 17.6089 20.1406 17.7995 19.7994Z"
+						fill="currentColor"
+					/>
+				</svg>
+			</div>
 			<h1 class="font-serif text-5xl md:text-7xl lg:text-8xl leading-[1.1] md:leading-[1.1] tracking-tight">
-				New Genre is a global design & technology studio accelerating tomorrow's ideas.
+				Transform your B2B SaaS website into a conversion engine. <span class="text-primary-400">In just 5 days.</span>
 			</h1>
+			<p class="text-xl md:text-2xl text-gray-300 mt-8 max-w-3xl">
+				Strategic design frameworks and rapid implementation for pre-Series B startups. No agency bloat, no endless timelines.
+			</p>
 		</div>
 
 		<div class="mt-24">
-			<a href="#work" class="inline-flex items-center justify-center px-6 py-3 border border-white/30 rounded-full text-sm font-medium hover:bg-white hover:text-[#1a2c4e] transition-colors duration-300 backdrop-blur-sm">
-				Our work
+			<a href="#work" class="inline-flex items-center justify-center px-6 py-3 bg-primary-500 hover:bg-primary-600 text-white rounded-full text-sm font-medium transition-colors duration-300">
+				See our work
 			</a>
 		</div>
 	</section>
 
-	<!-- Trusted Partners -->
-	<section class="bg-[#fdfbf7] px-6 md:px-12 lg:px-24 py-16 md:py-24">
-		<p class="text-lg md:text-xl text-gray-600 mb-12">Our trusted partners, from bold startups to global icons</p>
+	<!-- Trusted Clients -->
+	<section class="bg-white px-6 md:px-12 lg:px-24 py-16 md:py-24">
+		<p class="text-lg md:text-xl text-gray-600 mb-12">Trusted by ambitious B2B SaaS startups</p>
 		
-		<div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4 md:gap-8">
-			<!-- Logos placeholders -->
-			{#each ['etched', 'Accel', 'zid', 'gravity sketch', 'Sylvera', 'TESSIAN'] as partner}
-				<div class="h-20 bg-gray-100 rounded-lg flex items-center justify-center grayscale opacity-70 hover:opacity-100 hover:grayscale-0 transition-all duration-300">
-					<span class="font-semibold text-gray-800">{partner}</span>
+		<div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-8 gap-4 md:gap-8">
+			<!-- Client logos -->
+			{#each ['Compa', 'Banxware', 'Openhealth', 'Oaks', 'Re:ports', 'Real PACE', 'Zepta', 'Kaiko'] as client}
+				<div class="h-20 bg-white border border-gray-200 rounded-lg flex items-center justify-center grayscale opacity-70 hover:opacity-100 hover:grayscale-0 transition-all duration-300">
+					<span class="font-semibold text-gray-800 text-sm">{client}</span>
 				</div>
 			{/each}
 		</div>
 	</section>
 
     <!-- Work Section -->
-    <section class="bg-[#fdfbf7] px-6 md:px-12 lg:px-24 py-12 md:py-24" id="work">
+    <section class="bg-gray-50 px-6 md:px-12 lg:px-24 py-12 md:py-24" id="work">
         <div class="flex flex-col md:flex-row justify-between items-end mb-16 md:mb-24">
-            <h2 class="font-serif text-3xl md:text-4xl lg:text-5xl text-gray-900">Our work, from petal to planet</h2>
-            <a href="/work" class="hidden md:inline-flex items-center text-gray-500 hover:text-gray-900 transition-colors mt-4 md:mt-0">
-                See all <span class="ml-2">→</span>
-            </a>
+            <h2 class="font-serif text-3xl md:text-4xl lg:text-5xl text-gray-900">Recent projects</h2>
         </div>
 
         <div class="space-y-24 md:space-y-32">
-            <!-- Project 1: Sylvera -->
+            <!-- Project 1: Compa -->
             <div class="group grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
                 <div class="lg:col-span-4 space-y-6">
-                    <h3 class="font-serif text-3xl md:text-4xl text-gray-900">Sylvera</h3>
+                    <h3 class="font-serif text-3xl md:text-4xl text-gray-900">Compa</h3>
                     <p class="text-gray-600 text-lg leading-relaxed">
-                        Sylvera incentivises investment into real climate action by providing ratings, data, and marketing insight for over 20,000 carbon credit projects.
+                        A compensation data platform helping companies make fair pay decisions. We transformed their website to clearly communicate value to enterprise buyers.
                     </p>
                     <div class="flex flex-wrap gap-2 pt-2">
-                        <span class="px-3 py-1 border border-gray-200 rounded-full text-xs font-medium text-gray-600">Brand Identity</span>
-                        <span class="px-3 py-1 border border-gray-200 rounded-full text-xs font-medium text-gray-600">Digital Design</span>
+                        <span class="px-3 py-1 bg-primary-50 border border-primary-200 rounded-full text-xs font-medium text-primary-700">Homepage</span>
+                        <span class="px-3 py-1 bg-primary-50 border border-primary-200 rounded-full text-xs font-medium text-primary-700">5-Day Delivery</span>
                     </div>
                 </div>
                 <div class="lg:col-span-8">
-                    <div class="aspect-[16/9] bg-[#003322] rounded-lg overflow-hidden relative group-hover:scale-[1.02] transition-transform duration-500 ease-out">
-                        <div class="absolute inset-0 flex items-center justify-center">
-                            <div class="text-white text-3xl font-medium flex items-center gap-2">
-                                <!-- Logo placeholder -->
-                                <div class="w-8 h-8 rounded-full border-2 border-white/80 border-t-transparent animate-spin" style="animation-duration: 3s;"></div>
-                                Sylvera
-                            </div>
-                        </div>
+                    <div class="aspect-[16/9] bg-gray-100 rounded-lg overflow-hidden relative group-hover:scale-[1.02] transition-transform duration-500 ease-out shadow-lg">
+                        <img src="/generated/image-professional-website-design-mockup-on-la-1765978200633-1.webp" alt="Compa website" class="w-full h-full object-cover" />
                     </div>
                 </div>
             </div>
 
-            <!-- Project 2: Knotel -->
+            <!-- Project 2: Banxware -->
             <div class="group grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
                 <div class="lg:col-span-4 space-y-6">
-                    <h3 class="font-serif text-3xl md:text-4xl text-gray-900">Knotel</h3>
+                    <h3 class="font-serif text-3xl md:text-4xl text-gray-900">Banxware</h3>
                     <p class="text-gray-600 text-lg leading-relaxed">
-                        Transforming the digital architecture for a modern workplace provider.
+                        A fintech platform providing flexible financing for SMEs. We created a conversion-focused website that builds trust with financial decision-makers.
                     </p>
                     <div class="flex flex-wrap gap-2 pt-2">
-                        <span class="px-3 py-1 border border-gray-200 rounded-full text-xs font-medium text-gray-600">Website</span>
-                        <span class="px-3 py-1 border border-gray-200 rounded-full text-xs font-medium text-gray-600">Digital Design</span>
+                        <span class="px-3 py-1 bg-primary-50 border border-primary-200 rounded-full text-xs font-medium text-primary-700">Homepage</span>
+                        <span class="px-3 py-1 bg-primary-50 border border-primary-200 rounded-full text-xs font-medium text-primary-700">Brand Foundation</span>
                     </div>
                 </div>
                 <div class="lg:col-span-8">
-                    <div class="aspect-[16/9] bg-[#f5f5f0] rounded-lg overflow-hidden relative group-hover:scale-[1.02] transition-transform duration-500 ease-out">
-                        <!-- Image placeholder -->
-                        <img src="https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?q=80&w=2000&auto=format&fit=crop" alt="Knotel interior" class="w-full h-full object-cover" />
+                    <div class="aspect-[16/9] bg-gray-100 rounded-lg overflow-hidden relative group-hover:scale-[1.02] transition-transform duration-500 ease-out shadow-lg">
+                        <img src="/generated/image-clean-modern-b2b-fintech-website-interfa-1765978205569-2.webp" alt="Banxware website" class="w-full h-full object-cover" />
                     </div>
                 </div>
             </div>
 
-            <!-- Project 3: Folio -->
+            <!-- Project 3: Openhealth -->
             <div class="group grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
                 <div class="lg:col-span-4 space-y-6">
-                    <h3 class="font-serif text-3xl md:text-4xl text-gray-900">Folio</h3>
+                    <h3 class="font-serif text-3xl md:text-4xl text-gray-900">Openhealth Technologies</h3>
                     <p class="text-gray-600 text-lg leading-relaxed">
-                        Folio is a digital platform designed from the ground up, helping large enterprises organise, manage and deliver design standards to streamline workflows and ensure cohesion in every project.
+                        Healthcare technology platform streamlining medical data. We designed a professional website that communicates complex solutions with clarity.
                     </p>
                     <div class="flex flex-wrap gap-2 pt-2">
-                        <span class="px-3 py-1 border border-gray-200 rounded-full text-xs font-medium text-gray-600">Brand Identity</span>
-                        <span class="px-3 py-1 border border-gray-200 rounded-full text-xs font-medium text-gray-600">Digital Design</span>
-                        <span class="px-3 py-1 border border-gray-200 rounded-full text-xs font-medium text-gray-600">Website</span>
+                        <span class="px-3 py-1 bg-primary-50 border border-primary-200 rounded-full text-xs font-medium text-primary-700">Homepage</span>
+                        <span class="px-3 py-1 bg-primary-50 border border-primary-200 rounded-full text-xs font-medium text-primary-700">Copywriting</span>
                     </div>
                 </div>
                 <div class="lg:col-span-8">
-                    <div class="aspect-[16/9] bg-gray-200 rounded-lg overflow-hidden relative group-hover:scale-[1.02] transition-transform duration-500 ease-out">
-                        <div class="absolute inset-0 flex items-center justify-center bg-gradient-to-br from-gray-100 to-gray-300">
-                             <h4 class="text-6xl font-bold text-white drop-shadow-lg">Folio</h4>
-                        </div>
+                    <div class="aspect-[16/9] bg-gray-100 rounded-lg overflow-hidden relative group-hover:scale-[1.02] transition-transform duration-500 ease-out shadow-lg">
+                        <img src="/generated/image-healthcare-technology-dashboard-on-compu-1765978211084-3.webp" alt="Openhealth website" class="w-full h-full object-cover" />
                     </div>
                 </div>
             </div>
 
-            <!-- Project 4: Printosis -->
+            <!-- Project 4: Oaks -->
             <div class="group grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
                 <div class="lg:col-span-4 space-y-6">
-                    <h3 class="font-serif text-3xl md:text-4xl text-gray-900">Printosis</h3>
+                    <h3 class="font-serif text-3xl md:text-4xl text-gray-900">Oaks</h3>
                     <p class="text-gray-600 text-lg leading-relaxed">
-                        Printosis is a revolutionary tool that fuses AI with orthotists using scans and patient data to generate a printable 3D model, fabricating a perfect-fit orthotic on the first attempt.
+                        Enterprise software for modern teams. We built a sleek, conversion-optimized website that positions them as industry leaders.
                     </p>
                     <div class="flex flex-wrap gap-2 pt-2">
-                        <span class="px-3 py-1 border border-gray-200 rounded-full text-xs font-medium text-gray-600">Brand Identity</span>
-                        <span class="px-3 py-1 border border-gray-200 rounded-full text-xs font-medium text-gray-600">3D Design</span>
+                        <span class="px-3 py-1 bg-primary-50 border border-primary-200 rounded-full text-xs font-medium text-primary-700">Homepage</span>
+                        <span class="px-3 py-1 bg-primary-50 border border-primary-200 rounded-full text-xs font-medium text-primary-700">Brand Foundation</span>
                     </div>
                 </div>
                 <div class="lg:col-span-8">
-                    <div class="aspect-[16/9] bg-[#f0f4f0] rounded-lg overflow-hidden relative group-hover:scale-[1.02] transition-transform duration-500 ease-out border border-gray-100">
-                        <div class="absolute inset-0 flex items-center justify-center bg-[url('https://www.transparenttextures.com/patterns/graphy.png')] opacity-50"></div>
-                        <div class="absolute inset-0 flex items-center justify-center">
-                            <!-- Abstract shape placeholder -->
-                            <div class="w-32 h-32 border border-gray-300 rounded-full skew-x-12 skew-y-12"></div>
-                        </div>
+                    <div class="aspect-[16/9] bg-gray-100 rounded-lg overflow-hidden relative group-hover:scale-[1.02] transition-transform duration-500 ease-out shadow-lg">
+                        <img src="/generated/image-sleek-b2b-software-platform-website-on-l-1765978215173-4.webp" alt="Oaks website" class="w-full h-full object-cover" />
                     </div>
                 </div>
             </div>
-        </div>
-        
-        <div class="mt-12 md:hidden">
-            <a href="/work" class="flex items-center text-gray-500 hover:text-gray-900 transition-colors">
-                See all <span class="ml-2">→</span>
-            </a>
         </div>
     </section>
 
     <!-- Process Section -->
-    <section class="bg-[#fdfbf7] px-6 md:px-12 lg:px-24 py-12 md:py-24">
-        <h2 class="font-serif text-3xl md:text-4xl lg:text-5xl text-gray-900 mb-16 max-w-3xl">Our process, crafted through decades of shared experience</h2>
+    <section class="bg-white px-6 md:px-12 lg:px-24 py-12 md:py-24">
+        <h2 class="font-serif text-3xl md:text-4xl lg:text-5xl text-gray-900 mb-4 max-w-3xl">How we work</h2>
+        <p class="text-xl text-gray-600 mb-16 max-w-2xl">12+ years of startup experience, condensed into a perfected 5-day delivery system.</p>
 
         <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <!-- Think -->
-            <div class="bg-white p-8 rounded-xl shadow-sm hover:shadow-md transition-shadow duration-300 flex flex-col h-full min-h-[400px]">
-                <h3 class="text-xl font-semibold mb-4">Think</h3>
-                <p class="text-gray-600 text-sm leading-relaxed mb-auto">
-                    We read the soil to find where ideas take root, uncovering opportunities, directions, and missions.
-                </p>
-                <div class="mt-8 flex justify-center h-48 items-end">
-                    <img src="https://images.unsplash.com/photo-1610389368568-243553229202?q=80&w=400&auto=format&fit=crop" alt="Bud" class="h-full object-contain mix-blend-multiply opacity-80" />
+            <!-- Strategy -->
+            <div class="bg-gray-50 p-8 rounded-xl border border-gray-200 hover:border-primary-300 transition-all duration-300 flex flex-col h-full">
+                <div class="w-12 h-12 bg-primary-100 rounded-lg flex items-center justify-center mb-6">
+                    <svg class="w-6 h-6 text-primary-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-3 7h3m-3 4h3m-6-4h.01M9 16h.01"></path>
+                    </svg>
                 </div>
+                <h3 class="text-2xl font-semibold mb-4">Strategy First</h3>
+                <p class="text-gray-600 leading-relaxed mb-auto">
+                    We start with your ICP and positioning. No design without strategy. Our SaaS-specific frameworks ensure your message resonates with B2B buyers.
+                </p>
             </div>
 
-            <!-- Create -->
-            <div class="bg-white p-8 rounded-xl shadow-sm hover:shadow-md transition-shadow duration-300 flex flex-col h-full min-h-[400px]">
-                <h3 class="text-xl font-semibold mb-4">Create</h3>
-                <p class="text-gray-600 text-sm leading-relaxed mb-auto">
-                    We coax the invisible into the inevitable, crafting identities and systems to support your growth.
-                </p>
-                <div class="mt-8 flex justify-center h-48 items-end">
-                    <img src="https://images.unsplash.com/photo-1507646870321-10de075e8236?q=80&w=400&auto=format&fit=crop" alt="Blooming" class="h-full object-contain mix-blend-multiply opacity-80" />
+            <!-- Design -->
+            <div class="bg-gray-50 p-8 rounded-xl border border-gray-200 hover:border-primary-300 transition-all duration-300 flex flex-col h-full">
+                <div class="w-12 h-12 bg-primary-100 rounded-lg flex items-center justify-center mb-6">
+                    <svg class="w-6 h-6 text-primary-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 21a4 4 0 01-4-4V5a2 2 0 012-2h4a2 2 0 012 2v12a4 4 0 01-4 4zm0 0h12a2 2 0 002-2v-4a2 2 0 00-2-2h-2.343M11 7.343l1.657-1.657a2 2 0 012.828 0l2.829 2.829a2 2 0 010 2.828l-8.486 8.485M7 17h.01"></path>
+                    </svg>
                 </div>
+                <h3 class="text-2xl font-semibold mb-4">Rapid Design</h3>
+                <p class="text-gray-600 leading-relaxed mb-auto">
+                    Figma designs delivered in days, not weeks. Our proven workflow eliminates back-and-forth while maintaining quality. One revision cycle keeps momentum.
+                </p>
             </div>
 
-            <!-- Build -->
-            <div class="bg-white p-8 rounded-xl shadow-sm hover:shadow-md transition-shadow duration-300 flex flex-col h-full min-h-[400px]">
-                <h3 class="text-xl font-semibold mb-4">Build</h3>
-                <p class="text-gray-600 text-sm leading-relaxed mb-auto">
-                    We engineer scalable digital products and experiences ready for real-world impact.
-                </p>
-                <div class="mt-8 flex justify-center h-48 items-end">
-                    <img src="https://images.unsplash.com/photo-1462275646964-a0e3386b89fa?q=80&w=400&auto=format&fit=crop" alt="Flower" class="h-full object-contain mix-blend-multiply opacity-80" />
+            <!-- Deliver -->
+            <div class="bg-gray-50 p-8 rounded-xl border border-gray-200 hover:border-primary-300 transition-all duration-300 flex flex-col h-full">
+                <div class="w-12 h-12 bg-primary-100 rounded-lg flex items-center justify-center mb-6">
+                    <svg class="w-6 h-6 text-primary-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path>
+                    </svg>
                 </div>
+                <h3 class="text-2xl font-semibold mb-4">Ship Fast</h3>
+                <p class="text-gray-600 leading-relaxed mb-auto">
+                    Built in Webflow with client-first framework. SEO-optimized, GDPR-compliant, easy to edit. You own everything—no strings attached.
+                </p>
             </div>
         </div>
     </section>
 
-    <!-- Thoughts Section -->
-    <section class="bg-[#fdfbf7] px-6 md:px-12 lg:px-24 py-12 md:py-24">
+    <!-- Testimonials Section -->
+    <section class="bg-gray-50 px-6 md:px-12 lg:px-24 py-12 md:py-24">
         <div class="flex flex-col md:flex-row justify-between items-end mb-12">
-            <h2 class="font-serif text-3xl md:text-4xl text-gray-900">Thoughts from our world, to yours</h2>
-            <a href="/thoughts" class="hidden md:inline-flex items-center text-gray-500 hover:text-gray-900 transition-colors mt-4 md:mt-0">
-                Read all <span class="ml-2">→</span>
-            </a>
+            <h2 class="font-serif text-3xl md:text-4xl text-gray-900">What founders say</h2>
         </div>
 
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            <!-- Blog Post 1 -->
-            <div class="group cursor-pointer">
-                <div class="aspect-square bg-gray-900 rounded-lg overflow-hidden mb-4 relative">
-                     <div class="absolute inset-0 flex items-center justify-center text-white font-bold text-4xl text-center p-4">FONTS IN USE</div>
-                </div>
-                <h3 class="text-sm font-medium text-gray-900 group-hover:underline">New Genre Featured in Fonts in Use</h3>
-            </div>
-
-             <!-- Blog Post 2 -->
-             <div class="group cursor-pointer">
-                <div class="aspect-square bg-orange-400 rounded-lg overflow-hidden mb-4 relative">
-                    <div class="absolute inset-0 flex items-center justify-center text-black font-bold text-4xl text-center p-4 rotate-12">CHILI BOMBA</div>
-                </div>
-                <h3 class="text-sm font-medium text-gray-900 group-hover:underline">Chili Bomba Featured in Fonts in Use</h3>
-            </div>
-
-             <!-- Blog Post 3 -->
-             <div class="group cursor-pointer">
-                <div class="aspect-square bg-green-800 rounded-lg overflow-hidden mb-4 relative">
-                     <div class="absolute inset-0 flex items-center justify-center text-white text-right p-8 flex-col items-end">
-                        <span class="text-sm uppercase tracking-widest mb-2">Precision</span>
-                        <span class="text-2xl font-serif">at your fingertips</span>
-                     </div>
-                </div>
-                <h3 class="text-sm font-medium text-gray-900 group-hover:underline">New Identity and Website for Printosis Designed by New Genre</h3>
-            </div>
-
-             <!-- Blog Post 4 -->
-             <div class="group cursor-pointer">
-                <div class="aspect-square bg-gray-800 rounded-lg overflow-hidden mb-4 relative">
-                    <!-- Placeholder image -->
-                    <img src="https://images.unsplash.com/photo-1550684848-fac1c5b4e853?q=80&w=1000&auto=format&fit=crop" alt="Office" class="w-full h-full object-cover opacity-50" />
-                </div>
-                <h3 class="text-sm font-medium text-gray-900 group-hover:underline">New Logo and Identity for Folio by New Genre</h3>
-            </div>
-
-             <!-- Blog Post 5 -->
-             <div class="group cursor-pointer">
-                <div class="aspect-square bg-black rounded-lg overflow-hidden mb-4 relative flex items-center justify-center">
-                    <div class="w-3/4 h-3/4 bg-gray-900 rounded-3xl border border-gray-700 p-4 flex flex-col items-center justify-between">
-                        <span class="text-white text-xs">9:41</span>
-                        <div class="grid grid-cols-2 gap-2 w-full">
-                            <div class="bg-blue-500 rounded-lg h-12"></div>
-                            <div class="bg-red-500 rounded-lg h-12"></div>
-                        </div>
+            <!-- Testimonial 1 -->
+            <div class="bg-white p-8 rounded-xl shadow-sm border border-gray-200">
+                <div class="flex items-center mb-6">
+                    <img src="/generated/image-professional-headshot-of-confident-femal-1765978219163-5.webp" alt="Matthäus Kerres" class="w-16 h-16 rounded-full object-cover mr-4" />
+                    <div>
+                        <h4 class="font-semibold text-gray-900">Matthäus Kerres</h4>
+                        <p class="text-sm text-gray-600">Founder, Compa</p>
                     </div>
                 </div>
-                <h3 class="text-sm font-medium text-gray-900 group-hover:underline">New Genre designs identity, platform and website for new design standards tool</h3>
+                <p class="text-gray-700 leading-relaxed italic">
+                    "Alrdy is a game changer for early-stage companies. The speed and quality are unmatched. They understood our positioning immediately."
+                </p>
             </div>
 
-             <!-- Blog Post 6 -->
-             <div class="group cursor-pointer">
-                <div class="aspect-square bg-teal-600 rounded-lg overflow-hidden mb-4 relative">
-                     <img src="https://images.unsplash.com/photo-1556761175-5973dc0f32e7?q=80&w=1000&auto=format&fit=crop" alt="Phone" class="w-full h-full object-cover mix-blend-overlay" />
+            <!-- Testimonial 2 -->
+            <div class="bg-white p-8 rounded-xl shadow-sm border border-gray-200">
+                <div class="flex items-center mb-6">
+                    <img src="/generated/image-professional-headshot-of-marketing-execu-1765978223036-6.webp" alt="Ulrike Grandi" class="w-16 h-16 rounded-full object-cover mr-4" />
+                    <div>
+                        <h4 class="font-semibold text-gray-900">Ulrike Grandi</h4>
+                        <p class="text-sm text-gray-600">Head of Marketing, Banxware</p>
+                    </div>
                 </div>
-                <h3 class="text-sm font-medium text-gray-900 group-hover:underline">The New Genre Studio Revamps Framework, the Challenge Platform: A Fresh Approach to...</h3>
+                <p class="text-gray-700 leading-relaxed italic">
+                    "Working with Marina and Ben was effortless. Their can-do attitude and strategic guidance made the whole process smooth and fast."
+                </p>
+            </div>
+
+            <!-- Testimonial 3 -->
+            <div class="bg-white p-8 rounded-xl shadow-sm border border-gray-200">
+                <div class="flex items-center mb-6">
+                    <img src="/generated/image-professional-headshot-of-male-product-ma-1765978226239-7.webp" alt="Pedro Benites" class="w-16 h-16 rounded-full object-cover mr-4" />
+                    <div>
+                        <h4 class="font-semibold text-gray-900">Pedro Benites</h4>
+                        <p class="text-sm text-gray-600">Product Manager, Openhealth</p>
+                    </div>
+                </div>
+                <p class="text-gray-700 leading-relaxed italic">
+                    "They translated our complex product into clear messaging. The website now actually converts. Minimal effort required from our side."
+                </p>
             </div>
         </div>
     </section>
 
-    <!-- Newsletter Section -->
+    <!-- CTA Section -->
     <section class="px-6 md:px-12 lg:px-24 py-12">
-        <div class="bg-gradient-to-r from-[#eaddcf] to-[#e8d5c4] rounded-2xl p-8 md:p-16 lg:p-20">
-            <h3 class="font-serif text-2xl md:text-3xl text-gray-900 mb-4">Get dispatches from the edge of unknown</h3>
-            <p class="text-gray-600 mb-8 max-w-md">Every month, we promise to share what we're seeing, making, and thinking. Sign up if you dare.</p>
+        <div class="bg-gradient-to-br from-gray-900 via-gray-800 to-primary-950 rounded-2xl p-8 md:p-16 lg:p-20 text-white">
+            <h3 class="font-serif text-3xl md:text-4xl lg:text-5xl mb-4">Are you rdy?</h3>
+            <p class="text-xl text-gray-300 mb-8 max-w-2xl">
+                Transform your B2B SaaS website in 5 days. Fixed pricing, no surprises. Let's turn your outdated website into a conversion engine.
+            </p>
             
-            <form class="flex flex-col sm:flex-row gap-4 max-w-lg">
-                <input type="email" placeholder="johnnyappleseed@newgenre.studio" class="flex-1 bg-white/50 border-0 rounded-lg px-4 py-3 text-sm placeholder:text-gray-400 focus:ring-1 focus:ring-gray-400 outline-none" />
-                <button type="submit" class="bg-transparent border border-gray-900/20 hover:bg-gray-900 hover:text-white transition-colors text-gray-900 px-6 py-3 rounded-lg text-sm font-medium">
-                    Sign me up
-                </button>
-            </form>
-            <p class="text-[10px] text-gray-500 mt-4">We'll never share your details. By signing up, you agree to receive communications from New Genre. Read our Privacy Policy.</p>
-        </div>
-    </section>
-
-    <!-- Constellations (Footer Hero) -->
-    <section class="relative bg-gradient-to-b from-[#e69d75] via-[#c46d5e] to-[#8b3a2b] pt-32 pb-48 px-6 md:px-12 lg:px-24 overflow-hidden">
-        <div class="max-w-5xl relative z-10">
-            <h2 class="font-serif text-4xl md:text-6xl lg:text-7xl text-[#fdfbf7] leading-tight mb-8">
-                All our constellations, under one sky. <br />
-                <span class="text-[#fdfbf7]/70">Find out how we chart the path from idea to icon — through strategy, creation, building, and scaling — turning the unseeable into the undeniable.</span>
-            </h2>
-            
-            <div class="mt-16">
-                 <a href="/approach" class="inline-flex items-center justify-center px-6 py-3 border border-white/30 rounded-full text-sm font-medium text-white hover:bg-white hover:text-[#8b3a2b] transition-colors duration-300 backdrop-blur-sm">
-                    Our Approach
+            <div class="flex flex-col sm:flex-row gap-4">
+                <a href="mailto:hello@alrdy.de" class="inline-flex items-center justify-center bg-primary-500 hover:bg-primary-600 text-white px-8 py-4 rounded-lg text-base font-medium transition-colors">
+                    Book a call with Marina
+                </a>
+                <a href="#work" class="inline-flex items-center justify-center bg-transparent border border-white/30 hover:bg-white hover:text-gray-900 text-white px-8 py-4 rounded-lg text-base font-medium transition-colors">
+                    See our work
                 </a>
             </div>
+            
+            <div class="mt-12 pt-8 border-t border-white/10">
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-6 text-sm">
+                    <div>
+                        <p class="text-primary-300 font-medium mb-1">Brand Foundation</p>
+                        <p class="text-2xl font-bold">€8,000</p>
+                        <p class="text-gray-400 mt-1">2 days delivery</p>
+                    </div>
+                    <div>
+                        <p class="text-primary-300 font-medium mb-1">Homepage</p>
+                        <p class="text-2xl font-bold">€16,000</p>
+                        <p class="text-gray-400 mt-1">5 days delivery</p>
+                    </div>
+                    <div>
+                        <p class="text-primary-300 font-medium mb-1">Response Time</p>
+                        <p class="text-2xl font-bold">24 hours</p>
+                        <p class="text-gray-400 mt-1">Email guarantee</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="relative bg-white pt-24 pb-32 px-6 md:px-12 lg:px-24">
+        <div class="max-w-4xl mx-auto text-center">
+            <h2 class="font-serif text-3xl md:text-5xl text-gray-900 leading-tight mb-8">
+                Built by founders, for founders
+            </h2>
+            <p class="text-xl text-gray-600 leading-relaxed mb-8">
+                Marina and Ben Brühl bring 12+ years of startup experience. They've lived the pain points of early-stage companies firsthand—and built Alrdy to solve them.
+            </p>
+            <p class="text-lg text-gray-600 leading-relaxed">
+                No long-term commitments. No hidden costs. No agency bloat. Just fast, professional websites that help B2B SaaS startups appear credible and convert visitors into customers.
+            </p>
         </div>
     </section>
 
     <!-- Footer -->
-    <footer class="bg-[#3e1c16] text-[#eaddcf] px-6 md:px-12 lg:px-24 pt-24 pb-12 relative overflow-hidden">
-        
-        <!-- Large Flower Image Overlapping Sections -->
-        <div class="absolute bottom-0 left-1/2 transform -translate-x-1/2 translate-y-0 w-[800px] h-[1000px] pointer-events-none z-0 opacity-90 mix-blend-hard-light">
-             <img src="https://images.unsplash.com/photo-1596294399224-b174780e816e?q=80&w=1000&auto=format&fit=crop" alt="Hibiscus Flower" class="w-full h-full object-contain" />
-        </div>
-
+    <footer class="bg-gray-950 text-gray-300 px-6 md:px-12 lg:px-24 pt-24 pb-12 relative overflow-hidden">
         <div class="relative z-10">
-            <div class="grid grid-cols-1 md:grid-cols-4 gap-12 mb-24">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-12 mb-16">
                 <div class="col-span-1 md:col-span-2">
-                    <a href="/contact" class="text-2xl font-medium hover:opacity-80 transition-opacity inline-flex items-center">
-                        Work with us <span class="ml-2">→</span>
+                    <svg class="w-12 h-12 text-primary-400 mb-6" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            fill-rule="evenodd"
+                            clip-rule="evenodd"
+                            d="M5.0473 17.8386L5.69453 18.9586V18.9601H18.3003L18.9314 17.84H6.34063L6.82626 16.9993H19.4308L20.078 15.8807H7.47237L7.95715 15.0414H16.0358L16.0366 15.0429L16.0375 15.0414H20.5603L20.5612 15.0429L21.2084 13.9228L21.208 13.922L21.2084 13.9213H21.2075L14.9084 3.00677L14.9106 3.00296L14.9062 3.00296L13.6177 3.00296L5.0473 17.8386ZM14.261 4.12767L13.7751 4.96887L18.9438 13.9213H19.9139L14.261 4.12767ZM13.1286 6.08808L12.6467 6.9225L16.6749 13.9006L16.6634 13.9213H17.6511L13.1286 6.08808ZM11.9999 8.04225L8.60411 13.9213H15.3899L11.9999 8.04225ZM6.99833 3.30006C7.33866 3.10343 7.7248 2.99993 8.11786 3L2.30033 13.0776C2.10357 12.7371 2 12.3508 2 11.9575C2 11.5643 2.10357 11.178 2.30033 10.8375L6.17916 4.12006C6.37543 3.77951 6.65798 3.49669 6.99833 3.30006ZM9.08869 3H10.3816L3.43223 15.0384L2.785 13.9184L9.08869 3ZM11.3509 3H12.6424L4.56262 16.9963L3.91691 15.8777L11.3509 3ZM21.7064 13.0598C21.8988 12.7254 22 12.3463 22 11.9605C22 11.5746 21.8988 11.1956 21.7064 10.8611L17.8039 4.10233C17.6108 3.7681 17.3331 3.49057 16.9987 3.2976C16.6644 3.10463 16.2852 3.00302 15.8992 3.00296H15.8741L21.6931 13.082L21.7064 13.0598ZM17.7995 19.7994H6.17916C6.37472 20.1412 6.65692 20.4253 6.99728 20.6232C7.33763 20.8212 7.72414 20.9258 8.11786 20.9269H15.8829C16.2737 20.9261 16.6572 20.8212 16.994 20.6231C17.3309 20.4249 17.6089 20.1406 17.7995 19.7994Z"
+                            fill="currentColor"
+                        />
+                    </svg>
+                    <h3 class="text-2xl font-semibold text-white mb-4">Let's build your website</h3>
+                    <p class="text-gray-400 mb-6 max-w-md">
+                        Ready to transform your B2B SaaS website? Book a call with Marina to discuss your project.
+                    </p>
+                    <a href="mailto:hello@alrdy.de" class="inline-flex items-center text-primary-400 hover:text-primary-300 transition-colors font-medium">
+                        hello@alrdy.de <span class="ml-2">→</span>
                     </a>
                 </div>
                 
                 <div class="space-y-4">
-                    <h4 class="font-medium text-white">London, UK</h4>
-                    <p class="text-sm opacity-70">5:20 am</p>
-                    <div class="pt-4 text-sm opacity-70 space-y-1">
-                        <p>london@newgenre.studio</p>
-                        <p>+44 20 4572 6788</p>
-                        <p class="mt-4">2 Appleby Yard,<br>Seames Walk,<br>London SE10 0BU, UK</p>
-                    </div>
-                </div>
-
-                <div class="space-y-4">
-                    <h4 class="font-medium text-white">San Francisco</h4>
-                    <p class="text-sm opacity-70">9:20 pm</p>
-                    <div class="pt-4 text-sm opacity-70 space-y-1">
-                        <p>sf@newgenre.studio</p>
-                        <p>+1 650 466 6274</p>
+                    <h4 class="font-medium text-white">Germany</h4>
+                    <div class="pt-4 text-sm space-y-1">
+                        <p>Marina & Ben Brühl</p>
+                        <p>Founders</p>
+                        <p class="mt-4 text-gray-500">24-hour email response guarantee</p>
                     </div>
                 </div>
             </div>
 
-            <div class="flex flex-col md:flex-row justify-between items-end border-t border-white/10 pt-8">
+            <div class="flex flex-col md:flex-row justify-between items-center border-t border-gray-800 pt-8">
                 <div class="mb-4 md:mb-0">
-                    <!-- Logo Icon -->
-                    <svg width="32" height="32" viewBox="0 0 24 24" fill="currentColor" class="text-white">
-                        <rect x="2" y="2" width="9" height="9" rx="2" />
-                        <rect x="13" y="2" width="9" height="9" rx="2" />
-                        <rect x="2" y="13" width="9" height="9" rx="2" />
-                        <rect x="13" y="13" width="9" height="9" rx="2" />
-                    </svg>
+                    <p class="text-sm text-gray-500">© 2025 Alrdy. All rights reserved.</p>
                 </div>
                 
-                <div class="flex gap-6 text-xs font-medium">
+                <div class="flex gap-6 text-sm">
                     <a href="#" class="hover:text-white transition-colors">LinkedIn</a>
-                    <a href="#" class="hover:text-white transition-colors">Instagram</a>
-                    <a href="#" class="hover:text-white transition-colors">X</a>
-                    <a href="#" class="hover:text-white transition-colors">Join Us</a>
+                    <a href="#" class="hover:text-white transition-colors">Privacy</a>
+                    <a href="#" class="hover:text-white transition-colors">Terms</a>
                 </div>
-            </div>
-
-            <div class="flex justify-between text-[10px] opacity-50 mt-12">
-                <p>© 2025 New Genre</p>
-                <p>Privacy</p>
             </div>
         </div>
     </footer>
